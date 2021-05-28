@@ -56,7 +56,7 @@ protected static final Log log = LogFactory.getLog(MemberMapperTest.class);
 	public void test3SelectById() {
 		log.debug(Thread.currentThread().getStackTrace()[1].getMethodName() + "()");
 		
-		long mem = 2;
+		long mem = 43;
 		
 		Member member = mapper.selectById(mem);
 		Assert.assertNotNull(member);

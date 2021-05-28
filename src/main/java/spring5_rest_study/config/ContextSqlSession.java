@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("spring5_mybatis_webmvc_study.mapper") // 시바 여깃다가 sprint 해놧네
+@MapperScan("spring5_rest_study.mapper") // 시바 여깃다가 sprint 해놧네
 public class ContextSqlSession{
 	
 	@Autowired
